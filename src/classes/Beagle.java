@@ -1,15 +1,15 @@
 package classes;
 
-public class HuntDog extends Dog {
+public class Beagle extends Dog {
     private String speed;
     private boolean hungry;
 
-    HuntDog() {
+    Beagle() {
         speed = "undefined";
         hungry = false;
     }
 
-    HuntDog(String name, String color, int size, String speed, boolean hungry) {
+    Beagle(String name, String color, int size, String speed, boolean hungry) {
         this.hungry = hungry;
         this.speed = speed;
         this.name = name;

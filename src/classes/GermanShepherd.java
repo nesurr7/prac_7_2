@@ -1,16 +1,16 @@
 package classes;
 
-public class PoliceDog extends Dog{
+public class GermanShepherd extends Dog{
     String nameOfInstructor;
     int yearsOfService;
     String[] items = new String[]{"Улика", "Корм", "Заложника", "Пропавший кошелек"};
 
-    PoliceDog() {
+    GermanShepherd() {
         nameOfInstructor = "undefined";
         yearsOfService = -1;
     }
 
-    PoliceDog(String name, String color, int size, int yearsOfService, String nameOfInstructor) {
+    GermanShepherd(String name, String color, int size, int yearsOfService, String nameOfInstructor) {
         this.yearsOfService = yearsOfService;
         this.nameOfInstructor = nameOfInstructor;
         this.name = name;
